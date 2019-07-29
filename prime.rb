@@ -2,7 +2,7 @@ def prime?(integer)
   case
   when integer.between?(2, 3)
     return true
-  when integer < 0
+  when integer <= 1
     return false
   else
   (2..10).each do |n|
