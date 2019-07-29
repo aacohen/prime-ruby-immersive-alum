@@ -1,6 +1,6 @@
 def prime?(integer)
   case
-  when integer.between?(1, 3)
+  when integer.between?(2, 3)
     return true
   when integer < 0
     return false
