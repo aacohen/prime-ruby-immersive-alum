@@ -1,11 +1,11 @@
 def prime?(integer)
   case integer
-  when 1..2
+  when 1..3
     return true
   when integer<1
     return false
   else
-  (3..10).each do |n|
+  (2..10).each do |n|
 if (integer % n) == 0
   return false
 end
